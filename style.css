@@ -516,6 +516,19 @@ footer p {
 
 /* media query start */
 @media screen and (max-width:576px) {
+   
+    header section article, main section.quick_list div.features article, main section.lovely_features div.features_description>article, main section.lovely_features div.features_description section article, main section.some_facts article, main section.sponsor article, main section.bonus div.text article{
+        font-size: 8px;
+        line-height: 8.5px;
+    }
+    main section.lovely_features div.features_description section h2{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    header nav h3{
+        font-size: 20px;
+    }
+
 
     /* header nav menu start */
     header nav {
@@ -535,6 +548,12 @@ footer p {
 
     header nav ul li {
         text-align: center;
+        
+     
+    }
+    header nav ul li a{
+        font-size: 8px;
+        line-height: 8px;
     }
 
 
@@ -647,6 +666,7 @@ footer p {
         margin: 0 auto;
 
     }
+    
 
 
 
@@ -658,8 +678,10 @@ footer p {
     main section.brand img {
         margin-top: 5vw;
         width: 12vw;
-    }
+    } 
 
+  
+  
 
 
 
