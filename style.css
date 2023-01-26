@@ -1,6 +1,7 @@
 * {
     font-family: 'Work Sans';
 }
+
 /* header */
 header {
     background: rgba(255, 144, 14, 0.1);
@@ -114,9 +115,10 @@ section.grid div div {
     border-radius: 8px;
     width: 189px;
     height: 200px;
-    transition: 1.5s transform ease-in-out ;
-} 
-section.grid div div:hover{
+    transition: 1.5s transform ease-in-out;
+}
+
+section.grid div div:hover {
     transform: rotate(360deg);
 }
 
@@ -131,7 +133,7 @@ section.sponsor h3 {
 }
 
 
-section.brand div div img{
+section.brand div div img {
     filter: saturate(0);
 }
 
@@ -139,6 +141,20 @@ section.brand div div img{
 
 
 /* footer */
-footer{
+footer {
     background: #FFF4E7;
+}
+
+
+@media screen and (max-width:420px) {
+    .navbar-brand {
+        font-size: 30px;
+
+    }
+
+    section.banner h1.h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
 }
