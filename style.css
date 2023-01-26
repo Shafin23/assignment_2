@@ -1,688 +1,127 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+* {
+    font-family: 'Work Sans';
 }
 
-/* header area start 
------------------ */
 header {
-    width: 100%;
     background: rgba(255, 144, 14, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3.125vw;
 }
 
-/* nav area */
-header nav {
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav h3 {
+.navbar-brand {
     font-family: 'Work Sans';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
-    font-size: 2.34vw;
+    font-size: 40px;
+    line-height: 50px;
+    /* text-align: center; */
     color: #131313;
-    margin: 3.4722vw 0px;
 }
 
-header nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 33.14%;
+.navbar-expand-lg .navbar-nav .nav-item {
+    margin-right: 42px;
 }
 
-header nav ul li {
-    list-style: none;
-}
-
-header nav ul li a {
-    text-decoration: none;
+.navbar-expand-lg .navbar-nav .nav-link {
     font-family: 'Work Sans';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 16px;
+    line-height: 26px;
+    /* text-align: center; */
     color: #424242;
 }
 
 
-/* banner area */
-header section {
-    width: 57.36%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-header section h1 {
-    font-family: 'Work Sans';
-    font-style: normal;
+section.banner h1.h1 {
+
+    /* font-style: normal; */
     font-weight: 700;
-    font-size: 3.33vw;
-    text-align: center;
+    font-size: 60px;
+    line-height: 71px;
+    /* text-align: center; */
     color: #131313;
 }
 
-header section article {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.9vw;
-    line-height: 1.81vw;
-    text-align: center;
-    color: #727272;
-    margin-bottom: 2.222vw;
-}
-
-header section button {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.042vw;
-    text-align: center;
-    color: #FFFFFF;
-    width: 9.4vw;
-    height: 3.47vw;
-    border: none;
+section.banner .btn {
     background: #FF900E;
-    border-radius: 8px;
-    margin-bottom: 3.472vw;
-}
-
-/* image area */
-header section.image {
-    width: 75%;
-    height: 36vw;
-    background: url(./images/banner.png);
-    background-size: 100%;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-}
-
-
-
-
-/* main area start 
---------------- */
-main {
-    width: 75%;
-    margin-top: 5.90vw;
 
 }
 
-/* section quick list area */
-main section.quick_list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+main section.quick-feature .btn {
+    background: #FF900E;
+
 }
 
-main section.quick_list div.images {
-    width: 50%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1.67vw;
+span.a {
+    font-weight: 700;
 }
 
-main section.quick_list div.images img {
-    border-radius: 8px;
-    width: 17.81vw;
-    height: 17.81vw;
-}
-
-/* features */
-main section.quick_list div.features {
-    width: 37.29%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-main section.quick_list div.features h1 {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.34vw;
-    line-height: 2.76vw;
-    color: #727272;
-    margin: 1.25vw 0px;
-}
-
-main section.quick_list div.features h1 span.our {
-    color: #131313;
-    font-weight: 600;
-}
-
-main section.quick_list div.features h1 span.orange {
+span.b {
+    font-weight: 700;
     color: #FF900E;
-    font-weight: 600;
-}
-
-main section.quick_list div.features article {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 1.35vw;
-    color: #727272;
-    margin-bottom: 1.67vw;
-
-}
-
-main section.quick_list div.features button {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.042vw;
-    text-align: center;
-    color: #FFFFFF;
-    width: 9.4vw;
-    height: 3.47vw;
-    border: none;
-    background: #FF900E;
-    border-radius: 8px;
-    margin-bottom: 3.472vw;
 }
 
 
-
-/* lovely features */
-main section.lovely_features {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 6.77vw;
-    margin-bottom: 6.77vw;
-}
-
-main section.lovely_features div.features_description {
-    padding-top: 15px;
-    width: 40%;
-}
-
-main section.lovely_features div.features_description h1 {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.125vw;
-    line-height: 3.68vw;
-    color: #131313;
+section.features div div h1 {
     border-left: 5px solid #FF900E;
-    padding-left: 1.46vw;
-    margin-bottom: 1.25vw;
-}
-
-main section.lovely_features div.features_description>article {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 1.35vw;
-    color: #727272;
-}
-
-main section.lovely_features div.features_description section {
-    padding: 1.56vw 2.18vw 1.56vw 1.56vw;
+    font-weight: 700;
 
 }
 
-main section.lovely_features div.features_description section h2 {
-    font-family: 'Work Sans';
-    font-style: normal;
+section.features div div section h5 {
     font-weight: 600;
-    font-size: 1.04vw;
-    line-height: 1.19vw;
-    color: #131313;
 }
 
-main section.lovely_features div.features_description section article {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 1.35vw;
-    color: #727272;
-}
-
-main section.lovely_features div.happy_girl {
-    width: 50%;
-    height: 56.71vw;
-    background: url(./images/architect.png);
-    background-size: 95%;
-    background-repeat: no-repeat;
-    background-position: top right;
+section.features div div.img {
     position: relative;
 }
 
-main section.lovely_features div.happy_girl div {
-    padding: 2.34vw;
-    background: #FF900E;
-    border-radius: 8px;
-    width: 17.28vw;
-    height: 10.41vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+section.features div div.img img {
+    width: 94%;
+}
+
+section.features div div.img div {
     position: absolute;
-    bottom: 13.2vw;
+    background: #FF900E;
+    color: white;
+    bottom: 0;
+    left: 0;
 }
 
-main section.lovely_features div.happy_girl div h1 {
-    margin: 0px;
-    font-family: 'Work Sans';
-    font-style: normal;
+
+
+section.facts h2.h2 {
     font-weight: 700;
-    font-size: 4.5vw;
-    text-align: center;
-    color: #FFFFFF;
 }
 
-main section.lovely_features div.happy_girl div p {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.30vw;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0px;
-}
+section.grid div div {
 
-
-
-/* some facts */
-main section.some_facts h1 {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.125vw;
-    line-height: 3.68vw;
-    color: #131313;
-}
-
-main section.some_facts article {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.11vw;
-    line-height: 1.80vw;
-    color: #727272;
-    width: 37.64vw;
-    margin-bottom: 5.20vw;
-}
-
-
-/* grid */
-main section.grid {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-main section.grid div {
-    width: 12.55vw;
-    height: 12.59vw;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2.39vw 1.91vw 3.10vw 1.9vw;
-    transition: transform 1s ease-in;
+    width: 189px;
+    height: 200px;
+    transition: 1.5s transform ease-in-out ;
+} 
+section.grid div div:hover{
+    transform: rotate(360deg);
 }
 
-main section.grid div:hover {
-    transform: rotate(360deg) scale(1.5);
-}
-
-
-main section.grid div img {
-    width: 2.36vw;
-}
-
-main section.grid div h2 {
-    margin: 0px;
+section.sponsor h3 {
     font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.34vw;
-    line-height: 2.76vw;
-    color: #424242;
-}
 
-main section.grid div p {
-    margin: 0px;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.04vw;
-    line-height: 1.19vw;
-    color: #727272;
-}
-
-
-/* sponsor */
-main section.sponsor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 9.375vw;
-    margin-bottom: 2.60vw;
-}
-
-main section.sponsor h1 {
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 700;
-    font-size: 2.34vw;
-    line-height: 2.76vw;
-    margin: 0px;
+    font-size: 35px;
     color: #131313;
-    text-align: center;
-    margin-bottom: 1.25vw;
-}
-
-main section.sponsor article {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 1.35vw;
-    /* or 162% */
-    width: 37.60vw;
-    text-align: center;
-
-    /* Dark 03 */
-
-    color: #727272;
-}
-
-
-/* bonus section */
-main section.bonus {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 7.81vw 0px;
-    padding: 5vw;
-    background: rgba(255, 144, 14, 0.1);
-}
-
-main section.bonus div.text {
-    width: 50%;
+    line-height: 53px;
 
 }
 
-main section.bonus div.text h1 {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.34vw;
-    line-height: 2.76vw;
-    margin: 0px;
-    color: #131313;
-    text-align: start;
-    margin-bottom: 1.25vw;
-}
 
-main section.bonus div.text article {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 1.35vw;
-    width: 37.60vw;
-    text-align: start;
-    width: 70%;
-    color: #727272;
-}
-
-main section.bonus div.pic {
-    width: 50%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0.78vw;
-
-}
-
-main section.bonus div.pic img {
-    width: 16vw;
-    border-radius: 8px;
-}
-
-
-/* brand */
-main section.brand {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 6.77vw;
-}
-
-main section.brand img {
-    width: 8vw;
+section.brand div div img{
     filter: saturate(0);
 }
 
-
-
-
-
-/* footer area start
------------------- */
-footer {
-    width: 75%;
-    height: 5.2vw;
+footer{
     background: #FFF4E7;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer p {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.04vw;
-    line-height: 1.19vw;
-    text-align: center;
-
-    /* Dark 02 */
-
-    color: #424242;
-}
-
-
-
-
-
-/* media query start */
-@media screen and (max-width:576px) {
-   
-    header section article, main section.quick_list div.features article, main section.lovely_features div.features_description>article, main section.lovely_features div.features_description section article, main section.some_facts article, main section.sponsor article, main section.bonus div.text article{
-        font-size: 8px;
-        line-height: 8.5px;
-    }
-    main section.lovely_features div.features_description section h2{
-        font-size: 10px;
-        line-height: 10px;
-    }
-    header nav h3{
-        font-size: 20px;
-    }
-
-
-    /* header nav menu start */
-    header nav {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    header nav ul {
-        display: block;
-        margin: 0px;
-        padding: 0px;
-
-    }
-
-    header nav ul li {
-        text-align: center;
-        
-     
-    }
-    header nav ul li a{
-        font-size: 8px;
-        line-height: 8px;
-    }
-
-
-    /* section quick list area start*/
-    main section.quick_list {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    main section.quick_list div.images {
-        width: 100%;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        gap: 1.67vw;
-    }
-
-    main section.quick_list div.images img {
-        border-radius: 8px;
-        width: 50.81vw;
-        height: 40.81vw;
-        margin: 0 auto;
-    }
-
-    main section.quick_list div.features {
-        margin-top: 5.2vw;
-    }
-
-    main section.quick_list div.features {
-        width: 68.29%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-
-
-    /* lovely features */
-    main section.lovely_features {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 12.3vw;
-
-    }
-
-    main section.lovely_features div.happy_girl div {
-
-        bottom: -5vw;
-        left: 10vw;
-    }
-
-
-
-    /* some facts */
-    main section.some_facts h1 {
-        text-align: center;
-    }
-
-    main section.some_facts article {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-
-
-    /* grid */
-    main section.grid {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-
-
-    /* bonus section */
-    main section.bonus {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    main section.bonus div.text {
-        width: 37%;
-        margin: 0 auto;
-
-
-    }
-
-    main section.bonus div.pic {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 0.78vw;
-        margin-top: 3.2vw;
-
-    }
-
-    main section.bonus div.pic img {
-        width: 25vw;
-        height: 15vw;
-        margin: 0 auto;
-
-    }
-    
-
-
-
-    /* brand */
-    main section.brand {
-        flex-direction: column;
-    }
-
-    main section.brand img {
-        margin-top: 5vw;
-        width: 12vw;
-    } 
-
-  
-  
-
-
-
 }
