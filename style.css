@@ -1,7 +1,7 @@
 * {
     font-family: 'Work Sans';
 }
-
+/* header */
 header {
     background: rgba(255, 144, 14, 0.1);
 }
@@ -32,6 +32,9 @@ header {
 
 
 
+
+
+
 section.banner h1.h1 {
 
     /* font-style: normal; */
@@ -48,6 +51,16 @@ section.banner .btn {
 }
 
 
+
+
+
+
+
+
+
+
+
+/* main */
 main section.quick-feature .btn {
     background: #FF900E;
 
@@ -122,6 +135,10 @@ section.brand div div img{
     filter: saturate(0);
 }
 
+
+
+
+/* footer */
 footer{
     background: #FFF4E7;
 }
